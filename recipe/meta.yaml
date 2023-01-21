@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://cpucycles.cr.yp.to/libcpucycles-{{ version }}.tar.gz
-  sha256: 3507da28299972b064f32db9edb2295f85bc8cb9cf7f2dcb611eee4ca3b98a51
+  sha256: dd38c12205550216b92607f0f42727c52a0109a16af2eaa7a13835d53ebbc225
 
 build:
-  number: 1
+  number: 0
   skip: true  # [not linux]
 
 requirements:
