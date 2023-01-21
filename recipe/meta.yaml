@@ -1,5 +1,5 @@
 {% set name = "libcpucycles" %}
-{% set version = "20230105" %}
+{% set version = "20230115" %}
 
 package:
   name: {{ name|lower }}
