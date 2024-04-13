@@ -10,12 +10,13 @@ source:
   sha256: dd38c12205550216b92607f0f42727c52a0109a16af2eaa7a13835d53ebbc225
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - make
     - python
   host:
